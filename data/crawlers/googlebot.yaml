@@ -1,5 +1,5 @@
 - name: googlebot
-  user_agent_regex: \+http\://www\.google\.com/bot\.html
+  user_agent_regex: (\+http\://www\.google\.com/bot\.html|Google-Structured-Data-Testing-Tool)
   action: ALLOW
   # https://developers.google.com/static/search/apis/ipranges/googlebot.json
   remote_addresses: [
